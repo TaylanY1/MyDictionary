@@ -27,7 +27,7 @@ namespace MyDictionary
                 values[i] = tempValues[i];
             }
 
-            for (int x = 0; x < tempKeys.Length; j++)
+            for (int x = 0; x < tempKeys.Length; x++)
             {
                 if (key == null)
                 {
