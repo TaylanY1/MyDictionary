@@ -27,13 +27,13 @@ namespace MyDictionary
                 values[i] = tempValues[i];
             }
 
-            for (int j = 0; j < tempKeys.Length; j++)
+            for (int x = 0; x < tempKeys.Length; j++)
             {
                 if (key == null)
                 {
                     throw new ArgumentNullException("Key cannot be null.");
                 }
-                else if (tempKeys[j].Equals(key))
+                else if (tempKeys[x].Equals(key))
                 {
                     throw new ArgumentException("An element with the same key already exists in key array");
                 }
